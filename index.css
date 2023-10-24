@@ -1,0 +1,114 @@
+body *{
+    border: 0;
+    padding: 0;
+    margin: 0;
+
+    font-weight: 500;
+}
+
+body{
+    background-color: #ecf1f4;
+    padding: 2rem 5rem;
+    color: #5d5d5d;
+}
+
+
+h1{
+    font-size: 100px;
+}
+
+.Yellowtail{
+    font-family: 'Yellowtail', cursive;
+}
+
+.nav-item{
+    font-weight: 700;
+}
+
+.subscribe-btn{
+    color: #6b7d87;
+    background: -webkit-linear-gradient(#c3d4dc 50%, #bbc9d4 50%);
+    border: 1px #6b7d87 solid;
+}
+
+.border-right{
+    border-right: 1px solid;
+}
+
+.stripe-border{
+    border-color: #000;
+    border-style: dashed;
+}
+
+#mail-stripe{
+    height: 5px;
+    width: 100%;
+    background-image: repeating-linear-gradient(135deg, #F29B91 0px, #F09290 30px, transparent 30px, transparent 50px, #83B3DB 50px, #84ADCB 80px, transparent 80px, transparent 100px);
+    padding: 12px;
+}
+
+.mail-title{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.ticket-border {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+  
+.ticket-shape {
+    display: inline-block;
+    box-sizing: content-box;
+    position: relative;
+    height: 20px;
+    width: 26px;
+    font-size: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle at 13px 3px, rgba(255, 255, 255, 0) 0.4em, #fff 0.5em);
+    background-position: top left, top right;
+}
+
+.flipped .ticket-shape {
+    display: inline-block;
+    box-sizing: content-box;
+    position: relative;
+    height: 20px;
+    width: 26px;
+    font-size: 16px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle at 13px 17px, rgba(255, 255, 255, 0) 0.4em, #fff 0.5em);
+    background-position: top left, top right;
+}
+
+.deal-btn{
+    height: 4rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #5d5d5d;
+    background: -webkit-linear-gradient(#d2e49a 50%, #b2d577 50%);
+    border: 1px #a5ba75 solid;
+}
+
+.clients{
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-style: dashed;
+}
+
+.deal-sm{
+    font-size: 0.7rem;
+}
+
+.deal-btn-sm{
+    height: 2rem;
+    width: 60%;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #5d5d5d;
+    background: -webkit-linear-gradient(#d2e49a 50%, #b2d577 50%);
+    border: 1px #a5ba75 solid;
+}
